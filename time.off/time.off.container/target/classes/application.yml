@@ -1,0 +1,46 @@
+server:
+  port: 2372
+
+logstash:
+  host: localhost:5001
+logger:
+  name: time.off
+  path: ./logs
+logging:
+  level:
+    com.cercli.time.off: DEBUG
+
+spring:
+  profiles:
+    active: sentinel
+  application:
+    name: time.off
+  webflux:
+    base-path: /
+  codec:
+    max-in-memory-size: 25MB
+  cache:
+    type: redis
+  data:
+    redis:
+      sentinel:
+        master: mymaster
+        nodes: 127.0.0.1:26379
+        username: default
+        password: Login@345
+      host: 127.0.0.1
+      port: 26379
+      timeout: 2000
+      database: 0
+      cache-ttl: 30
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: cercli
+      username: root
+      password: Login%40345%40
+      uri: mongodb://${spring.data.mongodb.username}:${spring.data.mongodb.password}@${spring.data.mongodb.host}:${spring.data.mongodb.port}/${spring.data.mongodb.database}?authSource=${spring.data.mongodb.authentication-database}&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=false&minPoolSize=50&maxPoolSize=200
+      authentication-database: admin
+#      auto-index-creation: true
+
+

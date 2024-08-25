@@ -1,0 +1,27 @@
+version: '3.6'
+
+services:
+  mongodb:
+    image: mongo:7.0.4
+    container_name: mongodb
+    expose:
+      - 27017
+    ports:
+      - '27017:27017'
+    environment:
+      MONGO_INITDB_DATABASE: admin
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin
+    volumes:
+      - mongodb:/data/db
+      - mongoconfig:/data/configdb
+    networks:
+      - cercli_net
+
+volumes:
+  mongodb:
+  mongoconfig:
+
+networks:
+  cercli_net:
+    driver: bridge

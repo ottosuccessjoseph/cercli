@@ -1,0 +1,611 @@
+2024-08-25 17:09:52.993 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 17:09:53.009 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 76991 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 17:09:53.009 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 17:09:53.010 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 17:09:53.314 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 17:09:53.316 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 17:09:53.330 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-08-25 17:09:53.503 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 17:09:53.507 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:09:53.507 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 17:09:53.507 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 17:09:53.552 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 17:09:53.552 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 521 ms
+2024-08-25 17:09:53.681 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 17:09:53.991 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:09:53.996 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 17:09:54.002 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 1.257 seconds (process running for 6.708)
+2024-08-25 17:09:54.355 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: Type definition error: [simple type, class com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Country]
+2024-08-25 17:09:54.355 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: Type definition error: [simple type, class com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Country]
+2024-08-25 17:09:55.779 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: 200 OK from GET https://calendarific.com/api/v2/holidays?api_key=L1jLNEjCtQIH00z9FuIjJGdoA2iyzn9H&country=US&year=2024
+2024-08-25 17:13:34.432 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 17:13:34.449 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 78620 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 17:13:34.449 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 17:13:34.450 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 17:13:34.724 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 17:13:34.725 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 17:13:34.738 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-08-25 17:13:34.905 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 17:13:34.909 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:13:34.909 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 17:13:34.909 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 17:13:34.945 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 17:13:34.945 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 476 ms
+2024-08-25 17:13:35.082 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 17:14:57.146 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:14:57.151 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 17:14:57.156 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 82.949 seconds (process running for 88.446)
+2024-08-25 17:15:38.853 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: Type definition error: [simple type, class com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Country]
+2024-08-25 17:15:38.861 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: Type definition error: [simple type, class com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Country]
+2024-08-25 17:15:38.861 [] ERROR r.c.p.Operators - Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.core.codec.CodecException: Type definition error: [simple type, class com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Country]
+Caused by: org.springframework.core.codec.CodecException: Type definition error: [simple type, class com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Country]
+	at org.springframework.http.codec.json.AbstractJackson2Decoder.processException(AbstractJackson2Decoder.java:269)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Body from GET https://calendarific.com/api/v2/holidays?api_key=L1jLNEjCtQIH00z9FuIjJGdoA2iyzn9H&country=AE&year=2024 [DefaultClientResponse]
+Original Stack Trace:
+		at org.springframework.http.codec.json.AbstractJackson2Decoder.processException(AbstractJackson2Decoder.java:269)
+		at org.springframework.http.codec.json.AbstractJackson2Decoder.decode(AbstractJackson2Decoder.java:209)
+		at org.springframework.http.codec.json.AbstractJackson2Decoder.lambda$decodeToMono$2(AbstractJackson2Decoder.java:189)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299)
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337)
+		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2071)
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onComplete(FluxContextWrite.java:126)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onComplete(FluxMapFuseable.java:350)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:371)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:724)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onComplete(FluxFlattenIterable.java:273)
+		at reactor.adapter.JdkFlowAdapter$SubscriberToRS.onComplete(JdkFlowAdapter.java:160)
+		at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.complete(ResponseSubscribers.java:930)
+		at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.lambda$new$1(ResponseSubscribers.java:861)
+		at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+		at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+		at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+		at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.lambda$new$2(ResponseSubscribers.java:861)
+		at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147)
+		at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.signalComplete(ResponseSubscribers.java:947)
+		at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.onComplete(ResponseSubscribers.java:1033)
+		at java.net.http/jdk.internal.net.http.Stream.schedule(Stream.java:201)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+		at java.net.http/jdk.internal.net.http.Stream.receiveDataFrame(Stream.java:337)
+		at java.net.http/jdk.internal.net.http.Stream.incoming(Stream.java:443)
+		at java.net.http/jdk.internal.net.http.Http2Connection.processFrame(Http2Connection.java:812)
+		at java.net.http/jdk.internal.net.http.frame.FramesDecoder.decode(FramesDecoder.java:155)
+		at java.net.http/jdk.internal.net.http.Http2Connection$FramesController.processReceivedData(Http2Connection.java:232)
+		at java.net.http/jdk.internal.net.http.Http2Connection.asyncReceive(Http2Connection.java:674)
+		at java.net.http/jdk.internal.net.http.Http2Connection$Http2TubeSubscriber.processQueue(Http2Connection.java:1310)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+		at java.net.http/jdk.internal.net.http.Http2Connection$Http2TubeSubscriber.runOrSchedule(Http2Connection.java:1328)
+		at java.net.http/jdk.internal.net.http.Http2Connection$Http2TubeSubscriber.onNext(Http2Connection.java:1354)
+		at java.net.http/jdk.internal.net.http.Http2Connection$Http2TubeSubscriber.onNext(Http2Connection.java:1288)
+		at java.net.http/jdk.internal.net.http.common.SSLTube$DelegateWrapper.onNext(SSLTube.java:210)
+		at java.net.http/jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onNext(SSLTube.java:492)
+		at java.net.http/jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onNext(SSLTube.java:295)
+		at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:316)
+		at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+		at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:232)
+		at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:198)
+		at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:444)
+		at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:268)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+		at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Country`: non-static inner classes like this can only by instantiated using default, no-argument constructor
+ at [Source: (org.springframework.core.io.buffer.DataBufferInputStream); line: 1, column: 189] (through reference chain: com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse["response"]->com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Response["holidays"]->java.util.ArrayList[0]->com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Holiday["country"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1909)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:408)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1349)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1412)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:392)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:359)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:392)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:392)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2105)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1481)
+	at org.springframework.http.codec.json.AbstractJackson2Decoder.decode(AbstractJackson2Decoder.java:204)
+	at org.springframework.http.codec.json.AbstractJackson2Decoder.lambda$decodeToMono$2(AbstractJackson2Decoder.java:189)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337)
+	at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2071)
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onComplete(FluxContextWrite.java:126)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onComplete(FluxMapFuseable.java:350)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:371)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:724)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onComplete(FluxFlattenIterable.java:273)
+	at reactor.adapter.JdkFlowAdapter$SubscriberToRS.onComplete(JdkFlowAdapter.java:160)
+	at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.complete(ResponseSubscribers.java:930)
+	at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.lambda$new$1(ResponseSubscribers.java:861)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.lambda$new$2(ResponseSubscribers.java:861)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147)
+	at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.signalComplete(ResponseSubscribers.java:947)
+	at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.onComplete(ResponseSubscribers.java:1033)
+	at java.net.http/jdk.internal.net.http.Stream.schedule(Stream.java:201)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.Stream.receiveDataFrame(Stream.java:337)
+	at java.net.http/jdk.internal.net.http.Stream.incoming(Stream.java:443)
+	at java.net.http/jdk.internal.net.http.Http2Connection.processFrame(Http2Connection.java:812)
+	at java.net.http/jdk.internal.net.http.frame.FramesDecoder.decode(FramesDecoder.java:155)
+	at java.net.http/jdk.internal.net.http.Http2Connection$FramesController.processReceivedData(Http2Connection.java:232)
+	at java.net.http/jdk.internal.net.http.Http2Connection.asyncReceive(Http2Connection.java:674)
+	at java.net.http/jdk.internal.net.http.Http2Connection$Http2TubeSubscriber.processQueue(Http2Connection.java:1310)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.Http2Connection$Http2TubeSubscriber.runOrSchedule(Http2Connection.java:1328)
+	at java.net.http/jdk.internal.net.http.Http2Connection$Http2TubeSubscriber.onNext(Http2Connection.java:1354)
+	at java.net.http/jdk.internal.net.http.Http2Connection$Http2TubeSubscriber.onNext(Http2Connection.java:1288)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$DelegateWrapper.onNext(SSLTube.java:210)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onNext(SSLTube.java:492)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onNext(SSLTube.java:295)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:316)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:232)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:198)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:444)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:268)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-08-25 17:15:38.875 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: 200 OK from GET https://calendarific.com/api/v2/holidays?api_key=L1jLNEjCtQIH00z9FuIjJGdoA2iyzn9H&country=US&year=2024
+2024-08-25 17:16:33.556 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 17:16:33.580 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 79934 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 17:16:33.581 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 17:16:33.581 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 17:16:33.886 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 17:16:33.887 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 17:16:33.901 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-08-25 17:16:34.388 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 17:16:34.392 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:16:34.392 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 17:16:34.393 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 17:16:34.430 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 17:16:34.431 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 832 ms
+2024-08-25 17:16:34.609 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 17:17:05.136 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:17:05.140 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 17:17:05.145 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 31.818 seconds (process running for 37.139)
+2024-08-25 17:19:03.417 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: Type definition error: [simple type, class com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Country]
+2024-08-25 17:19:03.482 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: EOF reached while reading
+2024-08-25 17:19:03.482 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: EOF reached while reading
+2024-08-25 17:19:31.296 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 17:19:31.314 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 81256 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 17:19:31.314 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 17:19:31.314 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 17:19:31.598 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 17:19:31.599 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 17:19:31.613 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-08-25 17:19:31.790 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 17:19:31.794 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:19:31.794 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 17:19:31.794 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 17:19:31.833 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 17:19:31.833 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 500 ms
+2024-08-25 17:19:32.035 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 17:19:41.474 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:19:41.479 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 17:19:41.484 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 10.412 seconds (process running for 15.766)
+2024-08-25 17:24:18.500 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: 200 OK from GET https://calendarific.com/api/v2/holidays?api_key=L1jLNEjCtQIH00z9FuIjJGdoA2iyzn9H&country=US&year=2024
+2024-08-25 17:24:18.534 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: EOF reached while reading
+2024-08-25 17:24:18.534 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: EOF reached while reading
+2024-08-25 17:24:41.663 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 17:24:41.680 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 83468 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 17:24:41.680 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 17:24:41.680 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 17:24:41.960 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 17:24:41.961 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 17:24:41.974 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-08-25 17:24:42.150 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 17:24:42.153 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:24:42.154 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 17:24:42.154 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 17:24:42.191 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 17:24:42.192 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 493 ms
+2024-08-25 17:24:42.332 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 17:24:53.046 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:24:53.054 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 17:24:53.062 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 11.626 seconds (process running for 17.058)
+2024-08-25 17:25:29.860 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with a success response: CalendarificHolidayResponse(meta=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Meta@27032a02, response=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Response@3b8f2027)
+2024-08-25 17:29:10.446 [] WARN  c.c.h.d.a.s.HolidayApplicationServiceImpl - Holiday is not within next 7 days!
+2024-08-25 17:32:21.523 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@697cdddb to stream=employee-holiday-requested
+2024-08-25 17:33:05.824 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: Cannot invoke "com.cercli.holidays.domain.application.service.config.RedisStream.getRequest()" because the return value of "com.cercli.holidays.domain.application.service.config.RedisConfigData.getStreams()" is null
+2024-08-25 17:33:05.826 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Request to provider completed!
+2024-08-25 17:33:05.827 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: EOF reached while reading
+2024-08-25 17:33:05.838 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: 200 OK from GET https://calendarific.com/api/v2/holidays?api_key=L1jLNEjCtQIH00z9FuIjJGdoA2iyzn9H&country=US&year=2024
+2024-08-25 17:34:01.128 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 17:34:01.144 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 87512 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 17:34:01.144 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 17:34:01.145 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 17:34:01.427 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 17:34:01.429 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 17:34:01.442 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-08-25 17:34:01.610 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 17:34:01.613 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:34:01.613 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 17:34:01.613 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 17:34:01.644 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 17:34:01.645 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 482 ms
+2024-08-25 17:34:01.772 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 17:34:02.044 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:34:02.048 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 17:34:02.053 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 1.137 seconds (process running for 6.402)
+2024-08-25 17:34:02.290 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: JSON decoding error: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`)
+2024-08-25 17:34:02.825 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with a success response: CalendarificHolidayResponse(meta=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Meta@5f1f4ecd, response=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Response@753790a8)
+2024-08-25 17:34:02.828 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: Cannot invoke "com.cercli.holidays.domain.application.service.config.RedisStream.getRequest()" because the return value of "com.cercli.holidays.domain.application.service.config.RedisConfigData.getStreams()" is null
+2024-08-25 17:34:02.828 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Request to provider completed!
+2024-08-25 17:34:03.456 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: 200 OK from GET https://calendarific.com/api/v2/holidays?api_key=L1jLNEjCtQIH00z9FuIjJGdoA2iyzn9H&country=US&year=2024
+2024-08-25 17:36:39.550 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 17:36:39.566 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 88616 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 17:36:39.567 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 17:36:39.567 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 17:36:39.869 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 17:36:39.870 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 17:36:39.885 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-08-25 17:36:40.062 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 17:36:40.066 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:36:40.066 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 17:36:40.066 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 17:36:40.105 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 17:36:40.105 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 520 ms
+2024-08-25 17:36:40.263 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 17:37:27.597 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 17:37:27.602 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 48.272 seconds (process running for 53.758)
+2024-08-25 17:37:37.750 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 17:37:37.765 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 89036 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 17:37:37.765 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 17:37:37.766 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 17:37:38.026 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 17:37:38.028 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 17:37:38.042 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-08-25 17:37:38.207 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 17:37:38.210 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:37:38.211 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 17:37:38.211 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 17:37:38.242 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 17:37:38.242 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 460 ms
+2024-08-25 17:37:38.369 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 17:37:38.645 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:37:38.648 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 17:37:38.653 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 1.096 seconds (process running for 6.404)
+2024-08-25 17:37:39.046 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with a success response: CalendarificHolidayResponse(meta=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Meta@324ae6a5, response=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Response@5af60e6d)
+2024-08-25 17:37:39.047 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@303b5f4a to stream=employee-holiday-requested
+2024-08-25 17:37:39.072 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@79127634 to stream=employee-holiday-requested
+2024-08-25 17:37:39.072 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@6d126901 to stream=employee-holiday-requested
+2024-08-25 17:37:39.073 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: Text '2024-03-20T07:06:28+04:00' could not be parsed, unparsed text found at index 10
+2024-08-25 17:37:39.073 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Request to provider completed!
+2024-08-25 17:37:39.453 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: JSON decoding error: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`)
+2024-08-25 17:37:40.071 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: 200 OK from GET https://calendarific.com/api/v2/holidays?api_key=L1jLNEjCtQIH00z9FuIjJGdoA2iyzn9H&country=US&year=2024
+2024-08-25 17:44:15.467 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 17:44:15.484 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 91894 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 17:44:15.484 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 17:44:15.484 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 17:44:15.749 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 17:44:15.750 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 17:44:15.765 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-08-25 17:44:15.925 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 17:44:15.928 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:44:15.928 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 17:44:15.929 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 17:44:15.958 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 17:44:15.959 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 457 ms
+2024-08-25 17:44:16.074 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 17:44:16.347 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:44:16.350 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 17:44:16.355 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 1.086 seconds (process running for 6.438)
+2024-08-25 17:44:17.302 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with a success response: CalendarificHolidayResponse(meta=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Meta@1177910b, response=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Response@168128d2)
+2024-08-25 17:44:17.304 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7067063c to stream=employee-holiday-requested
+2024-08-25 17:44:17.330 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@2a788412 to stream=employee-holiday-requested
+2024-08-25 17:44:17.330 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@42932d86 to stream=employee-holiday-requested
+2024-08-25 17:44:17.332 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: Text '2024-03-20T07:06:28+04:00' could not be parsed, unparsed text found at index 10
+2024-08-25 17:44:17.332 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Request to provider completed!
+2024-08-25 17:45:22.233 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 17:45:22.251 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 92369 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 17:45:22.251 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 17:45:22.251 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 17:45:22.535 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 17:45:22.536 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 17:45:22.548 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-08-25 17:45:22.723 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 17:45:22.727 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:45:22.727 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 17:45:22.727 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 17:45:22.765 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 17:45:22.766 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 495 ms
+2024-08-25 17:45:22.895 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 17:45:56.929 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:45:56.938 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 17:45:56.943 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 34.926 seconds (process running for 40.335)
+2024-08-25 17:46:48.681 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with a success response: CalendarificHolidayResponse(meta=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Meta@b678504, response=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Response@1d821011)
+2024-08-25 17:47:35.692 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@57e3d66e to stream=employee-holiday-requested
+2024-08-25 17:50:21.173 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@4ded566d to stream=employee-holiday-requested
+2024-08-25 17:50:21.197 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@652b6ebc to stream=employee-holiday-requested
+2024-08-25 17:50:21.198 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@4b53a6d6 to stream=employee-holiday-requested
+2024-08-25 17:50:21.230 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: Text '2024-03-20T07:06:28+04:00' could not be parsed, unparsed text found at index 10
+2024-08-25 17:50:21.230 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Request to provider completed!
+2024-08-25 17:51:20.954 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 17:51:20.970 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 94973 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 17:51:20.970 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 17:51:20.970 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 17:51:21.247 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 17:51:21.248 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 17:51:21.260 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-08-25 17:51:21.421 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 17:51:21.425 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:51:21.425 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 17:51:21.425 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 17:51:21.455 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 17:51:21.455 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 467 ms
+2024-08-25 17:51:21.598 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 17:51:21.865 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:51:21.868 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 17:51:21.873 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 1.116 seconds (process running for 6.385)
+2024-08-25 17:51:22.767 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with a success response: CalendarificHolidayResponse(meta=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Meta@3d435c7a, response=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Response@243b04f2)
+2024-08-25 17:51:22.769 [] ERROR c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with an error: Text '2024-01-01' could not be parsed at index 10
+2024-08-25 17:51:22.769 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Request to provider completed!
+2024-08-25 17:53:41.242 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 17:53:41.258 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 95956 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 17:53:41.258 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 17:53:41.259 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 17:53:41.540 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 17:53:41.541 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 17:53:41.553 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-08-25 17:53:41.708 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 17:53:41.712 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:53:41.712 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 17:53:41.712 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 17:53:41.742 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 17:53:41.743 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 468 ms
+2024-08-25 17:53:41.860 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 17:53:42.128 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 17:53:42.132 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 17:53:42.136 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 1.091 seconds (process running for 6.392)
+2024-08-25 17:53:43.550 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with a success response: CalendarificHolidayResponse(meta=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Meta@ef3862c, response=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Response@22926fb1)
+2024-08-25 17:53:43.551 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@508e3ec7 to stream=employee-holiday-requested
+2024-08-25 17:53:43.747 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@2f4ee2e6 to stream=employee-holiday-requested
+2024-08-25 17:53:43.748 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@6e5dbe97 to stream=employee-holiday-requested
+2024-08-25 17:53:43.749 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@69470ad7 to stream=employee-holiday-requested
+2024-08-25 17:53:43.749 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@3847499 to stream=employee-holiday-requested
+2024-08-25 17:53:43.750 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@1d972170 to stream=employee-holiday-requested
+2024-08-25 17:53:43.750 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@3bc8c577 to stream=employee-holiday-requested
+2024-08-25 17:53:43.750 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@8714f73 to stream=employee-holiday-requested
+2024-08-25 17:53:43.751 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@f840e3c to stream=employee-holiday-requested
+2024-08-25 17:53:43.751 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@5dbc8a3e to stream=employee-holiday-requested
+2024-08-25 17:53:43.751 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@4acf4748 to stream=employee-holiday-requested
+2024-08-25 17:53:43.752 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@4010b498 to stream=employee-holiday-requested
+2024-08-25 17:53:43.752 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7a058660 to stream=employee-holiday-requested
+2024-08-25 17:53:43.752 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@67070e9a to stream=employee-holiday-requested
+2024-08-25 17:53:43.753 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@714dbc43 to stream=employee-holiday-requested
+2024-08-25 17:53:43.753 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7a2155b6 to stream=employee-holiday-requested
+2024-08-25 17:53:43.754 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@70521a34 to stream=employee-holiday-requested
+2024-08-25 17:53:43.754 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@5fcb56f7 to stream=employee-holiday-requested
+2024-08-25 17:53:43.754 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@6d18f39b to stream=employee-holiday-requested
+2024-08-25 17:53:43.755 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@a9dc29 to stream=employee-holiday-requested
+2024-08-25 17:53:43.755 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@ce71bcf to stream=employee-holiday-requested
+2024-08-25 17:53:43.755 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7f6fcd7a to stream=employee-holiday-requested
+2024-08-25 17:53:43.756 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@dcdb7af to stream=employee-holiday-requested
+2024-08-25 17:53:43.756 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Request to provider completed!
+2024-08-25 19:39:24.693 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 19:39:24.709 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 41867 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 19:39:24.709 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 19:39:24.709 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 19:39:25.015 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 19:39:25.017 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 19:39:25.035 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-08-25 19:39:25.211 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 19:39:25.215 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 19:39:25.216 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 19:39:25.216 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 19:39:25.255 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 19:39:25.255 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 526 ms
+2024-08-25 19:39:25.383 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 19:39:25.671 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 19:39:25.675 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 19:39:25.680 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 1.181 seconds (process running for 6.641)
+2024-08-25 19:39:26.835 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with a success response: CalendarificHolidayResponse(meta=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Meta@3d435c7a, response=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Response@243b04f2)
+2024-08-25 19:39:26.837 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@40248843 to stream=employee-holiday-requested
+2024-08-25 19:39:27.070 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@5520462e to stream=employee-holiday-requested
+2024-08-25 19:39:27.071 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@691b1db0 to stream=employee-holiday-requested
+2024-08-25 19:39:27.071 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@332fcb6e to stream=employee-holiday-requested
+2024-08-25 19:39:27.072 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@2e204d93 to stream=employee-holiday-requested
+2024-08-25 19:39:27.073 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@323be03 to stream=employee-holiday-requested
+2024-08-25 19:39:27.075 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@62ee66e8 to stream=employee-holiday-requested
+2024-08-25 19:39:27.075 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@235d84e to stream=employee-holiday-requested
+2024-08-25 19:39:27.076 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@21e2f591 to stream=employee-holiday-requested
+2024-08-25 19:39:27.077 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@52bc77dc to stream=employee-holiday-requested
+2024-08-25 19:39:27.077 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@49fc80e3 to stream=employee-holiday-requested
+2024-08-25 19:39:27.078 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@63b0e433 to stream=employee-holiday-requested
+2024-08-25 19:39:27.078 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@4ca15044 to stream=employee-holiday-requested
+2024-08-25 19:39:27.078 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@18620ab5 to stream=employee-holiday-requested
+2024-08-25 19:39:27.079 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@5a952c31 to stream=employee-holiday-requested
+2024-08-25 19:39:27.079 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@159c61c8 to stream=employee-holiday-requested
+2024-08-25 19:39:27.079 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@64c8903e to stream=employee-holiday-requested
+2024-08-25 19:39:27.080 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7538f07b to stream=employee-holiday-requested
+2024-08-25 19:39:27.080 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@78e3a716 to stream=employee-holiday-requested
+2024-08-25 19:39:27.080 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@3b442d38 to stream=employee-holiday-requested
+2024-08-25 19:39:27.081 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@657d7f99 to stream=employee-holiday-requested
+2024-08-25 19:39:27.081 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@1ecc50ba to stream=employee-holiday-requested
+2024-08-25 19:39:27.081 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7ddd822c to stream=employee-holiday-requested
+2024-08-25 19:39:27.082 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Request to provider completed!
+2024-08-25 19:49:26.028 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 19:49:26.043 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 46287 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 19:49:26.044 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 19:49:26.044 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 19:49:26.334 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 19:49:26.335 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 19:49:26.347 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-08-25 19:49:26.502 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 19:49:26.506 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 19:49:26.506 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 19:49:26.506 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 19:49:26.534 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 19:49:26.535 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 473 ms
+2024-08-25 19:49:26.659 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 19:49:26.937 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 19:49:26.940 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 19:49:26.945 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 1.128 seconds (process running for 6.413)
+2024-08-25 19:49:27.883 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with a success response: CalendarificHolidayResponse(meta=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Meta@58c502fb, response=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Response@1baaecbc)
+2024-08-25 19:49:27.884 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@18b92e4 to stream=employee-holiday-requested
+2024-08-25 19:49:28.058 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@25a9598 to stream=employee-holiday-requested
+2024-08-25 19:49:28.059 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@76380091 to stream=employee-holiday-requested
+2024-08-25 19:49:28.059 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@27387b95 to stream=employee-holiday-requested
+2024-08-25 19:49:28.060 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@676895dd to stream=employee-holiday-requested
+2024-08-25 19:49:28.061 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@10f0aa59 to stream=employee-holiday-requested
+2024-08-25 19:49:28.064 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@486b88f6 to stream=employee-holiday-requested
+2024-08-25 19:49:28.065 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@e36d171 to stream=employee-holiday-requested
+2024-08-25 19:49:28.066 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@735e01f1 to stream=employee-holiday-requested
+2024-08-25 19:49:28.066 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7b02b34f to stream=employee-holiday-requested
+2024-08-25 19:49:28.067 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@213a7b7d to stream=employee-holiday-requested
+2024-08-25 19:49:28.067 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@a31cd4b to stream=employee-holiday-requested
+2024-08-25 19:49:28.068 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@286808cb to stream=employee-holiday-requested
+2024-08-25 19:49:28.068 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@12d41e6d to stream=employee-holiday-requested
+2024-08-25 19:49:28.068 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@33ed1869 to stream=employee-holiday-requested
+2024-08-25 19:49:28.069 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@291c2d34 to stream=employee-holiday-requested
+2024-08-25 19:49:28.069 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@6449a630 to stream=employee-holiday-requested
+2024-08-25 19:49:28.069 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@943466 to stream=employee-holiday-requested
+2024-08-25 19:49:28.070 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@57b7f9b6 to stream=employee-holiday-requested
+2024-08-25 19:49:28.070 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@1b0f92cf to stream=employee-holiday-requested
+2024-08-25 19:49:28.070 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7af8ae51 to stream=employee-holiday-requested
+2024-08-25 19:49:28.071 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@1386827c to stream=employee-holiday-requested
+2024-08-25 19:49:28.071 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@45248411 to stream=employee-holiday-requested
+2024-08-25 19:49:28.072 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Request to provider completed!
+2024-08-25 19:51:14.928 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 19:51:14.946 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 47076 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 19:51:14.947 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 19:51:14.947 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 19:51:15.225 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 19:51:15.227 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 19:51:15.240 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-08-25 19:51:15.403 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 19:51:15.406 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 19:51:15.406 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 19:51:15.407 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 19:51:15.440 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 19:51:15.441 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 476 ms
+2024-08-25 19:51:15.559 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 19:51:15.826 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 19:51:15.830 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 19:51:15.835 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 1.177 seconds (process running for 6.461)
+2024-08-25 19:51:16.752 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with a success response: CalendarificHolidayResponse(meta=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Meta@3d435c7a, response=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Response@243b04f2)
+2024-08-25 19:51:16.753 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@40248843 to stream=employee-holiday-requested
+2024-08-25 19:51:16.928 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@5520462e to stream=employee-holiday-requested
+2024-08-25 19:51:16.929 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@691b1db0 to stream=employee-holiday-requested
+2024-08-25 19:51:16.929 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@332fcb6e to stream=employee-holiday-requested
+2024-08-25 19:51:16.930 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@2e204d93 to stream=employee-holiday-requested
+2024-08-25 19:51:16.930 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@323be03 to stream=employee-holiday-requested
+2024-08-25 19:51:16.931 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@62ee66e8 to stream=employee-holiday-requested
+2024-08-25 19:51:16.931 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@235d84e to stream=employee-holiday-requested
+2024-08-25 19:51:16.932 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@21e2f591 to stream=employee-holiday-requested
+2024-08-25 19:51:16.932 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@52bc77dc to stream=employee-holiday-requested
+2024-08-25 19:51:16.932 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@49fc80e3 to stream=employee-holiday-requested
+2024-08-25 19:51:16.933 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@63b0e433 to stream=employee-holiday-requested
+2024-08-25 19:51:16.933 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@4ca15044 to stream=employee-holiday-requested
+2024-08-25 19:51:16.933 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@18620ab5 to stream=employee-holiday-requested
+2024-08-25 19:51:16.934 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@5a952c31 to stream=employee-holiday-requested
+2024-08-25 19:51:16.934 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@159c61c8 to stream=employee-holiday-requested
+2024-08-25 19:51:16.934 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@64c8903e to stream=employee-holiday-requested
+2024-08-25 19:51:16.935 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7538f07b to stream=employee-holiday-requested
+2024-08-25 19:51:16.935 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@78e3a716 to stream=employee-holiday-requested
+2024-08-25 19:51:16.936 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@3b442d38 to stream=employee-holiday-requested
+2024-08-25 19:51:16.936 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@657d7f99 to stream=employee-holiday-requested
+2024-08-25 19:51:16.936 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@1ecc50ba to stream=employee-holiday-requested
+2024-08-25 19:51:16.937 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7ddd822c to stream=employee-holiday-requested
+2024-08-25 19:51:16.937 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Request to provider completed!
+2024-08-25 20:04:53.296 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 20:04:53.318 [] INFO  c.c.h.c.HolidaysApplication - Starting HolidaysApplication using Java 17.0.4.1 with PID 52978 (/Users/js4otto/Documents/cercli/public.holidays/public.holidays.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 20:04:53.318 [] DEBUG c.c.h.c.HolidaysApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 20:04:53.318 [] INFO  c.c.h.c.HolidaysApplication - The following 1 profile is active: "sentinel"
+2024-08-25 20:04:53.707 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 20:04:53.709 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 20:04:53.729 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-08-25 20:04:53.936 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2374 (http)
+2024-08-25 20:04:53.940 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2374"]
+2024-08-25 20:04:53.941 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 20:04:53.941 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 20:04:53.981 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 20:04:53.982 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 638 ms
+2024-08-25 20:04:54.133 [] INFO  c.c.h.d.a.s.s.HolidayScheduler - Holiday scheduler started!!!
+2024-08-25 20:04:54.535 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2374"]
+2024-08-25 20:04:54.539 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2374 (http) with context path ''
+2024-08-25 20:04:54.545 [] INFO  c.c.h.c.HolidaysApplication - Started HolidaysApplication in 1.503 seconds (process running for 6.801)
+2024-08-25 20:04:55.468 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Provider returned with a success response: CalendarificHolidayResponse(meta=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Meta@3d435c7a, response=com.cercli.holidays.domain.application.service.dto.calendarific.CalendarificHolidayResponse$Response@243b04f2)
+2024-08-25 20:04:55.470 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@40248843 to stream=employee-holiday-requested
+2024-08-25 20:04:55.692 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@5520462e to stream=employee-holiday-requested
+2024-08-25 20:04:55.693 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@691b1db0 to stream=employee-holiday-requested
+2024-08-25 20:04:55.694 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@332fcb6e to stream=employee-holiday-requested
+2024-08-25 20:04:55.694 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@2e204d93 to stream=employee-holiday-requested
+2024-08-25 20:04:55.695 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@323be03 to stream=employee-holiday-requested
+2024-08-25 20:04:55.695 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@62ee66e8 to stream=employee-holiday-requested
+2024-08-25 20:04:55.695 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@235d84e to stream=employee-holiday-requested
+2024-08-25 20:04:55.696 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@21e2f591 to stream=employee-holiday-requested
+2024-08-25 20:04:55.696 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@52bc77dc to stream=employee-holiday-requested
+2024-08-25 20:04:55.697 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@49fc80e3 to stream=employee-holiday-requested
+2024-08-25 20:04:55.697 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@63b0e433 to stream=employee-holiday-requested
+2024-08-25 20:04:55.697 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@4ca15044 to stream=employee-holiday-requested
+2024-08-25 20:04:55.697 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@18620ab5 to stream=employee-holiday-requested
+2024-08-25 20:04:55.698 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@5a952c31 to stream=employee-holiday-requested
+2024-08-25 20:04:55.698 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@159c61c8 to stream=employee-holiday-requested
+2024-08-25 20:04:55.698 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@64c8903e to stream=employee-holiday-requested
+2024-08-25 20:04:55.699 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7538f07b to stream=employee-holiday-requested
+2024-08-25 20:04:55.699 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@78e3a716 to stream=employee-holiday-requested
+2024-08-25 20:04:55.699 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@3b442d38 to stream=employee-holiday-requested
+2024-08-25 20:04:55.700 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@657d7f99 to stream=employee-holiday-requested
+2024-08-25 20:04:55.700 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@1ecc50ba to stream=employee-holiday-requested
+2024-08-25 20:04:55.700 [] INFO  c.c.h.m.p.EmployeeHolidayRequestedEventProducer - Sending message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7ddd822c to stream=employee-holiday-requested
+2024-08-25 20:04:55.701 [] INFO  c.c.h.d.a.s.HolidayApplicationServiceImpl - Request to provider completed!

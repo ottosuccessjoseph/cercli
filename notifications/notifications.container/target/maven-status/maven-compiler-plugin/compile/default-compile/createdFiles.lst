@@ -1,0 +1,3 @@
+com/cercli/notifications/container/NotificationsApplication.class
+com/cercli/notifications/container/config/RedisConfig.class
+com/cercli/notifications/container/config/Subscriptions.class

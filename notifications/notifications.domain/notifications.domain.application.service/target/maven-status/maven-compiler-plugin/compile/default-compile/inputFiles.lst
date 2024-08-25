@@ -1,0 +1,10 @@
+/Users/js4otto/Documents/cercli/notifications/notifications.domain/notifications.domain.application.service/src/main/java/com/cercli/notifications/domain/application/service/EmailNotificationServiceImpl.java
+/Users/js4otto/Documents/cercli/notifications/notifications.domain/notifications.domain.application.service/src/main/java/com/cercli/notifications/domain/application/service/config/RedisStreamRequest.java
+/Users/js4otto/Documents/cercli/notifications/notifications.domain/notifications.domain.application.service/src/main/java/com/cercli/notifications/domain/application/service/EmployeeHolidayEventHandler.java
+/Users/js4otto/Documents/cercli/notifications/notifications.domain/notifications.domain.application.service/src/main/java/com/cercli/notifications/domain/application/service/port/output/EmployeeRepository.java
+/Users/js4otto/Documents/cercli/notifications/notifications.domain/notifications.domain.application.service/src/main/java/com/cercli/notifications/domain/application/service/config/RedisStream.java
+/Users/js4otto/Documents/cercli/notifications/notifications.domain/notifications.domain.application.service/src/main/java/com/cercli/notifications/domain/application/service/port/output/NotificationService.java
+/Users/js4otto/Documents/cercli/notifications/notifications.domain/notifications.domain.application.service/src/main/java/com/cercli/notifications/domain/application/service/NotificationApplicationServiceImpl.java
+/Users/js4otto/Documents/cercli/notifications/notifications.domain/notifications.domain.application.service/src/main/java/com/cercli/notifications/domain/application/service/port/input/NotificationApplicationService.java
+/Users/js4otto/Documents/cercli/notifications/notifications.domain/notifications.domain.application.service/src/main/java/com/cercli/notifications/domain/application/service/config/RedisSentinel.java
+/Users/js4otto/Documents/cercli/notifications/notifications.domain/notifications.domain.application.service/src/main/java/com/cercli/notifications/domain/application/service/config/RedisConfigData.java

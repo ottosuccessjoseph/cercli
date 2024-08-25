@@ -1,0 +1,5 @@
+com/cercli/edms/data/access/mapper/EmployeeDataAccessMapper.class
+com/cercli/edms/data/access/adapter/EmployeeRepositoryImpl.class
+com/cercli/edms/data/access/entity/EmployeeEntity$EmployeeEntityBuilder.class
+com/cercli/edms/data/access/repository/EmployeeMongoRepository.class
+com/cercli/edms/data/access/entity/EmployeeEntity.class

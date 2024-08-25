@@ -1,0 +1,208 @@
+2024-08-25 19:38:36.790 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 19:38:36.809 [] INFO  c.c.n.c.NotificationsApplication - Starting NotificationsApplication using Java 17.0.4.1 with PID 41530 (/Users/js4otto/Documents/cercli/notifications/notifications.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 19:38:36.809 [] DEBUG c.c.n.c.NotificationsApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 19:38:36.810 [] INFO  c.c.n.c.NotificationsApplication - The following 1 profile is active: "sentinel"
+2024-08-25 19:38:37.039 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 19:38:37.039 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-08-25 19:38:37.080 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 1 MongoDB repository interfaces.
+2024-08-25 19:38:37.176 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 19:38:37.177 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 19:38:37.189 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-08-25 19:38:37.402 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2375 (http)
+2024-08-25 19:38:37.406 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2375"]
+2024-08-25 19:38:37.406 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 19:38:37.406 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 19:38:37.441 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 19:38:37.441 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 607 ms
+2024-08-25 19:38:37.526 [] INFO  o.m.d.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "14.4"}, "platform": "Java/Azul Systems, Inc./17.0.4.1+1-LTS", "application": {"name": "MongoDB Compass"}} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@3bfae028]}, clusterSettings={hosts=[127.0.0.1:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=200, minSize=50, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='MongoDB Compass', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2024-08-25 19:38:37.539 [] INFO  o.m.d.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13916292}
+2024-08-25 19:38:38.215 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2375"]
+2024-08-25 19:38:38.220 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2375 (http) with context path ''
+2024-08-25 19:38:38.225 [] INFO  c.c.n.c.NotificationsApplication - Started NotificationsApplication in 1.679 seconds (process running for 7.184)
+2024-08-25 19:39:27.094 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@640c248f from stream=employee-holiday-requested
+2024-08-25 19:41:23.062 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7202ffbf from stream=employee-holiday-requested
+2024-08-25 19:41:30.108 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@6c0a6197 from stream=employee-holiday-requested
+2024-08-25 19:41:34.099 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@3ee519e9 from stream=employee-holiday-requested
+2024-08-25 19:41:34.105 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@c407037 from stream=employee-holiday-requested
+2024-08-25 19:41:34.108 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7d73d9d4 from stream=employee-holiday-requested
+2024-08-25 19:41:34.112 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7b5982b3 from stream=employee-holiday-requested
+2024-08-25 19:41:34.116 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@ea67448 from stream=employee-holiday-requested
+2024-08-25 19:41:34.120 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@712cf744 from stream=employee-holiday-requested
+2024-08-25 19:41:34.123 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@64af2d88 from stream=employee-holiday-requested
+2024-08-25 19:41:34.127 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@9cafc51 from stream=employee-holiday-requested
+2024-08-25 19:41:34.131 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7d5dc9fd from stream=employee-holiday-requested
+2024-08-25 19:41:34.136 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@695a41db from stream=employee-holiday-requested
+2024-08-25 19:41:34.156 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@17b8d50 from stream=employee-holiday-requested
+2024-08-25 19:49:08.859 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 19:49:08.874 [] INFO  c.c.n.c.NotificationsApplication - Starting NotificationsApplication using Java 17.0.4.1 with PID 46170 (/Users/js4otto/Documents/cercli/notifications/notifications.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 19:49:08.874 [] DEBUG c.c.n.c.NotificationsApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 19:49:08.874 [] INFO  c.c.n.c.NotificationsApplication - The following 1 profile is active: "sentinel"
+2024-08-25 19:49:09.102 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 19:49:09.102 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-08-25 19:49:09.131 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 1 MongoDB repository interfaces.
+2024-08-25 19:49:09.222 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 19:49:09.222 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 19:49:09.229 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-08-25 19:49:09.401 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2375 (http)
+2024-08-25 19:49:09.406 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2375"]
+2024-08-25 19:49:09.406 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 19:49:09.406 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 19:49:09.439 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 19:49:09.439 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 543 ms
+2024-08-25 19:49:09.507 [] INFO  o.m.d.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "14.4"}, "platform": "Java/Azul Systems, Inc./17.0.4.1+1-LTS", "application": {"name": "MongoDB Compass"}} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@73afe2b7]}, clusterSettings={hosts=[127.0.0.1:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=200, minSize=50, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='MongoDB Compass', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2024-08-25 19:49:09.516 [] INFO  o.m.d.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10967959}
+2024-08-25 19:49:10.070 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2375"]
+2024-08-25 19:49:10.074 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2375 (http) with context path ''
+2024-08-25 19:49:10.078 [] INFO  c.c.n.c.NotificationsApplication - Started NotificationsApplication in 1.412 seconds (process running for 6.724)
+2024-08-25 19:49:28.081 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@71d0a4a7 from stream=employee-holiday-requested
+2024-08-25 19:49:28.137 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@577550b1 from stream=employee-holiday-requested
+2024-08-25 19:49:28.142 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@767b4fee from stream=employee-holiday-requested
+2024-08-25 19:49:28.149 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@32c13f00 from stream=employee-holiday-requested
+2024-08-25 19:49:28.154 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@1ee90289 from stream=employee-holiday-requested
+2024-08-25 19:49:28.160 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@61e1a4ef from stream=employee-holiday-requested
+2024-08-25 19:49:28.165 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@4e761e4d from stream=employee-holiday-requested
+2024-08-25 19:49:28.169 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@757401bc from stream=employee-holiday-requested
+2024-08-25 19:49:28.173 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@23dfa8d1 from stream=employee-holiday-requested
+2024-08-25 19:49:28.177 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@4ff5a699 from stream=employee-holiday-requested
+2024-08-25 19:49:28.180 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@310f5d5c from stream=employee-holiday-requested
+2024-08-25 19:49:28.183 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@6423c320 from stream=employee-holiday-requested
+2024-08-25 19:49:28.186 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@3ae47655 from stream=employee-holiday-requested
+2024-08-25 19:49:28.190 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@58c7defe from stream=employee-holiday-requested
+2024-08-25 19:49:28.193 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@13699d07 from stream=employee-holiday-requested
+2024-08-25 19:49:28.196 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@69297689 from stream=employee-holiday-requested
+2024-08-25 19:49:28.198 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@7066e327 from stream=employee-holiday-requested
+2024-08-25 19:49:28.201 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@16b0e3fb from stream=employee-holiday-requested
+2024-08-25 19:49:28.207 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@49eec58f from stream=employee-holiday-requested
+2024-08-25 19:49:28.215 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@6bd17f05 from stream=employee-holiday-requested
+2024-08-25 19:49:28.220 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@2c69d683 from stream=employee-holiday-requested
+2024-08-25 19:49:28.225 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@3d5757ce from stream=employee-holiday-requested
+2024-08-25 19:49:28.230 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@22a2f56 from stream=employee-holiday-requested
+2024-08-25 19:50:24.280 [] WARN  i.l.c.RedisChannelHandler - Connection is already closed
+2024-08-25 19:50:24.281 [] ERROR o.s.d.r.s.DefaultStreamMessageListenerContainer$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.springframework.data.redis.RedisSystemException: Redis exception
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:72)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:40)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:38)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:249)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.await(LettuceConnection.java:962)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.lambda$doInvoke$4(LettuceConnection.java:819)
+	at org.springframework.data.redis.connection.lettuce.LettuceInvoker$Synchronizer.invoke(LettuceInvoker.java:673)
+	at org.springframework.data.redis.connection.lettuce.LettuceInvoker$DefaultManyInvocationSpec.toList(LettuceInvoker.java:618)
+	at org.springframework.data.redis.connection.lettuce.LettuceStreamCommands.xReadGroup(LettuceStreamCommands.java:282)
+	at org.springframework.data.redis.stream.DefaultStreamMessageListenerContainer.lambda$getReadFunction$3(DefaultStreamMessageListenerContainer.java:232)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:406)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:373)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:360)
+	at org.springframework.data.redis.stream.DefaultStreamMessageListenerContainer.lambda$getReadFunction$4(DefaultStreamMessageListenerContainer.java:231)
+	at org.springframework.data.redis.stream.StreamPollTask.readRecords(StreamPollTask.java:146)
+	at org.springframework.data.redis.stream.StreamPollTask.doLoop(StreamPollTask.java:127)
+	at org.springframework.data.redis.stream.StreamPollTask.run(StreamPollTask.java:112)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.lettuce.core.RedisException: Connection closed
+	at io.lettuce.core.protocol.DefaultEndpoint.notifyDrainQueuedCommands(DefaultEndpoint.java:679)
+	at io.lettuce.core.protocol.CommandHandler.channelInactive(CommandHandler.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.lettuce.core.protocol.RedisHandshakeHandler.channelInactive(RedisHandshakeHandler.java:94)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.lettuce.core.ChannelGroupListener.channelInactive(ChannelGroupListener.java:69)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+2024-08-25 19:50:58.161 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 19:50:58.178 [] INFO  c.c.n.c.NotificationsApplication - Starting NotificationsApplication using Java 17.0.4.1 with PID 46942 (/Users/js4otto/Documents/cercli/notifications/notifications.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 19:50:58.178 [] DEBUG c.c.n.c.NotificationsApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 19:50:58.179 [] INFO  c.c.n.c.NotificationsApplication - The following 1 profile is active: "sentinel"
+2024-08-25 19:50:58.386 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 19:50:58.386 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-08-25 19:50:58.427 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 1 MongoDB repository interfaces.
+2024-08-25 19:50:58.513 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 19:50:58.513 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 19:50:58.524 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-08-25 19:50:58.719 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2375 (http)
+2024-08-25 19:50:58.723 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2375"]
+2024-08-25 19:50:58.723 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 19:50:58.723 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 19:50:58.760 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 19:50:58.761 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 558 ms
+2024-08-25 19:50:58.865 [] INFO  o.m.d.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "14.4"}, "platform": "Java/Azul Systems, Inc./17.0.4.1+1-LTS", "application": {"name": "MongoDB Compass"}} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@1e5eb20a]}, clusterSettings={hosts=[127.0.0.1:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=200, minSize=50, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='MongoDB Compass', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2024-08-25 19:50:58.879 [] INFO  o.m.d.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=16338500}
+2024-08-25 19:50:59.556 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2375"]
+2024-08-25 19:50:59.560 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2375 (http) with context path ''
+2024-08-25 19:50:59.565 [] INFO  c.c.n.c.NotificationsApplication - Started NotificationsApplication in 1.624 seconds (process running for 7.02)
+2024-08-25 19:51:16.948 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@14bad422 from stream=employee-holiday-requested
+2024-08-25 19:52:33.390 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@4b0cf437 from stream=employee-holiday-requested
+2024-08-25 19:52:33.394 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@78f7ef4a from stream=employee-holiday-requested
+2024-08-25 19:52:33.398 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@6c6d9a0b from stream=employee-holiday-requested
+2024-08-25 19:52:33.402 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@4f858fec from stream=employee-holiday-requested
+2024-08-25 19:52:33.405 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@59654419 from stream=employee-holiday-requested
+2024-08-25 19:52:33.410 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@32f91111 from stream=employee-holiday-requested
+2024-08-25 19:52:33.415 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@5908fc1f from stream=employee-holiday-requested
+2024-08-25 19:52:33.421 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@72c3f1ff from stream=employee-holiday-requested
+2024-08-25 19:52:33.426 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@3756e61d from stream=employee-holiday-requested
+2024-08-25 20:06:28.776 [] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.0.Final
+2024-08-25 20:06:28.791 [] INFO  c.c.n.c.NotificationsApplication - Starting NotificationsApplication using Java 17.0.4.1 with PID 53654 (/Users/js4otto/Documents/cercli/notifications/notifications.container/target/classes started by js4otto in /Users/js4otto/Documents/cercli)
+2024-08-25 20:06:28.791 [] DEBUG c.c.n.c.NotificationsApplication - Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-08-25 20:06:28.791 [] INFO  c.c.n.c.NotificationsApplication - The following 1 profile is active: "sentinel"
+2024-08-25 20:06:28.981 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 20:06:28.981 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-08-25 20:06:29.008 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 1 MongoDB repository interfaces.
+2024-08-25 20:06:29.121 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-25 20:06:29.122 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-25 20:06:29.135 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-08-25 20:06:29.332 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 2375 (http)
+2024-08-25 20:06:29.336 [] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2375"]
+2024-08-25 20:06:29.336 [] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2024-08-25 20:06:29.336 [] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-08-25 20:06:29.369 [] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-08-25 20:06:29.370 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 558 ms
+2024-08-25 20:06:29.449 [] INFO  o.m.d.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "14.4"}, "platform": "Java/Azul Systems, Inc./17.0.4.1+1-LTS", "application": {"name": "MongoDB Compass"}} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@1c34365c]}, clusterSettings={hosts=[127.0.0.1:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=200, minSize=50, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='MongoDB Compass', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2024-08-25 20:06:29.456 [] INFO  o.m.d.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9415500}
+2024-08-25 20:06:29.939 [] INFO  c.c.n.m.c.EmployeeHolidayRequestedEventConsumer - Received message=com.cercli.common.domain.event.EmployeeHolidayRequestedEvent@52a76119 from stream=employee-holiday-requested
+2024-08-25 20:06:29.984 [] INFO  c.c.n.d.a.s.EmailNotificationServiceImpl - Sending mail to recipient=ottosuccessjoseph@gmail.com, of subject=New Year's Day and message=New Year’s Day is the first day of the year, or January 1, in the Gregorian calendar.
+2024-08-25 20:06:30.107 [] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2375"]
+2024-08-25 20:06:30.113 [] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 2375 (http) with context path ''
+2024-08-25 20:06:30.118 [] INFO  c.c.n.c.NotificationsApplication - Started NotificationsApplication in 1.552 seconds (process running for 6.948)
+2024-08-25 20:06:36.603 [] ERROR o.s.d.r.s.DefaultStreamMessageListenerContainer$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.springframework.mail.MailAuthenticationException: Authentication failed
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:440)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.cercli.notifications.domain.application.service.EmailNotificationServiceImpl.send(EmailNotificationServiceImpl.java:31)
+	at com.cercli.notifications.domain.application.service.EmployeeHolidayEventHandler.handle(EmployeeHolidayEventHandler.java:34)
+	at com.cercli.notifications.domain.application.service.NotificationApplicationServiceImpl.eventHandler(NotificationApplicationServiceImpl.java:24)
+	at com.cercli.notifications.messaging.consumer.EmployeeHolidayRequestedEventConsumer.receive(EmployeeHolidayRequestedEventConsumer.java:30)
+	at com.cercli.notifications.container.config.Subscriptions.lambda$userCreatedEventSubscription$0(Subscriptions.java:53)
+	at org.springframework.data.redis.stream.StreamPollTask.deserializeAndEmitRecords(StreamPollTask.java:157)
+	at org.springframework.data.redis.stream.StreamPollTask.doLoop(StreamPollTask.java:128)
+	at org.springframework.data.redis.stream.StreamPollTask.run(StreamPollTask.java:112)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: jakarta.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-37308141dc3sm8836616f8f.41 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:979)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:890)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:794)
+	at jakarta.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	... 11 common frames omitted

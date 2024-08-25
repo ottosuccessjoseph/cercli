@@ -1,0 +1,55 @@
+server:
+  port: 2374
+
+logstash:
+  host: localhost:5001
+logger:
+  name: cercli.holidays
+  path: ./logs
+logging:
+  level:
+    com.cercli.holidays: DEBUG
+
+spring:
+  profiles:
+    active: sentinel
+  application:
+    name: cercli.holidays
+  webflux:
+    base-path: /
+    codec:
+      max-in-memory-size: 25MB
+  codec:
+    max-in-memory-size: 25MB
+  cache:
+    type: redis
+  data:
+    redis:
+      sentinel:
+        master: mymaster
+        nodes: 127.0.0.1:26379
+        username: default
+        password: Login@345
+      host: 127.0.0.1
+      port: 26379
+      timeout: 2000
+      database: 0
+      cache-ttl: 30
+      streams:
+        request:
+          employee-holiday-requested: employee-holiday-requested
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: cercli
+      username: root
+      password: Login%40345%40
+      uri: mongodb://${spring.data.mongodb.username}:${spring.data.mongodb.password}@${spring.data.mongodb.host}:${spring.data.mongodb.port}/${spring.data.mongodb.database}?authSource=${spring.data.mongodb.authentication-database}&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=false&minPoolSize=50&maxPoolSize=200
+      authentication-database: admin
+#      auto-index-creation: true
+
+providers:
+  calendarific:
+    url: https://calendarific.com/api/v2/holidays
+    api_key: L1jLNEjCtQIH00z9FuIjJGdoA2iyzn9H
+

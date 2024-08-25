@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cercli</artifactId>
+        <groupId>com.cercli</groupId>
+        <version>0.0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.cercli.time.off</groupId>
+    <artifactId>time.off</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>time.off.container</module>
+        <module>time.off.application</module>
+        <module>time.off.domain</module>
+        <module>time.off.data.access</module>
+    </modules>
+
+</project>

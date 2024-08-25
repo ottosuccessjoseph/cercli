@@ -1,0 +1,3 @@
+com/cercli/edms/container/config/RedisConfig.class
+com/cercli/edms/container/config/BeanConfig.class
+com/cercli/edms/container/EdmsApplication.class

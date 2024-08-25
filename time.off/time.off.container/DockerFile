@@ -1,0 +1,12 @@
+FROM openjdk:17
+
+WORKDIR /app
+
+COPY target/cercli.time.off.container-0.0.1.jar cercli.time.off-0.0.1.jar
+
+EXPOSE 2372
+
+ENV JAVA_OPTS="-XX:+UseG1GC -XX:MaxGCPauseMillis=200 -Xms4g -Xmx10g -XX:InitiatingHeapOccupancyPercent=45 -XX:+UseStringDeduplication -XX:+AlwaysPreTouch -XX:+UnlockExperimentalVMOptions -XX:+UseNUMA -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+ExplicitGCInvokesConcurrent -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/path/to/heap-dumps -XX:+UseGCOverheadLimit"
+
+CMD ["sh", "-c", "java  $JAVA_OPTS -jar cercli.time.off-0.0.1.jar"]
+

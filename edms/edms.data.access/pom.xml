@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>edms</artifactId>
+        <groupId>com.cercli.edms</groupId>
+        <version>0.0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.cercli.edms.data.access</groupId>
+    <artifactId>edms.data.access</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.cercli.edms.domain.core</groupId>
+            <artifactId>edms.domain.core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.cercli.edms.domain.application.service</groupId>
+            <artifactId>edms.domain.application.service</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
