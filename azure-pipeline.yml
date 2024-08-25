@@ -1,0 +1,72 @@
+trigger:
+  - Dev
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  build.MajorVersion: 1
+  build.MinorVersion: 1
+  buildRevision: $[counter(variables['build.MinorVersion'], 1)]
+  name: $(build.MajorVersion).$(build.MinorVersion).$(buildRevision)
+
+
+steps:
+  - task: Maven@4
+    displayName: Maven Build
+    inputs:
+      mavenPomFile: 'pom.xml'
+      publishJUnitResults: false
+      javaHomeOption: 'JDKVersion'
+      jdkVersionOption: '1.17'
+      mavenVersionOption: 'Default'
+      mavenAuthenticateFeed: false
+      effectivePomSkip: false
+      goals: 'package'
+
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+      ArtifactName: 'Artifactsirectory'
+      publishLocation: 'Container'
+
+  - task: Docker@2
+    displayName: DockerBuildEdms
+    inputs:
+      containerRegistry: cercli
+      repository: 'cercli'
+      command: 'build'
+      Dockerfile: '**/edms.container/Dockerfile'
+      tags: |
+        cercli.edms.$(build.MajorVersion).$(build.MinorVersion).$(buildRevision)
+
+  - task: Docker@2
+    displayName: DockerBuildNotif
+    inputs:
+      containerRegistry: cercli
+      Dockerfile: '**/notifications.container/Dockerfile'
+      command: build
+      repository: cercli
+      tags: |
+        cercli.notif.$(build.MajorVersion).$(build.MinorVersion).$(buildRevision)
+
+  - task: Docker@2
+    displayName: DockerPushEdms
+    inputs:
+      containerRegistry: cercli
+      command: push
+      repository: cercli
+      tags: |
+        cercli.edms.$(build.MajorVersion).$(build.MinorVersion).$(buildRevision)
+    condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
+
+  - task: Docker@2
+    displayName: DockerPushNotif
+    inputs:
+      containerRegistry: cercli
+      command: push
+      repository: cercli
+      tags: |
+        cercli.notif.$(build.MajorVersion).$(build.MinorVersion).$(buildRevision)
+    condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
